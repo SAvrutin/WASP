@@ -2194,13 +2194,12 @@ int main()
                             EmRate = EmRate;
                         }
                     }
-                    /*if(Future_scenario == 5 && Multiple_Targets_option == 3){ //weighted
-                     EmRate = x*EmRate_pH +y*EmRate; //what are x and y though
-                     } */
-                    //I have just put a quick hack in here of equal 50:50 weighting
+                  
+                    
+                   
                     if(Future_scenario == 5 && Multiple_Targets_option == 3 )
                     { //Adjusts to weighted average of T and surface ocean pH
-                        EmRate = 0.5*EmRate_pH + 0.5*EmRate;
+                        EmRate = pH_weight*EmRate_pH + temp_weight*EmRate;
                     }
                     if(Future_scenario == 5 && Multiple_Targets_option == 4 )
                     { //Adjusts to temperature only
