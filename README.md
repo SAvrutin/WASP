@@ -1,4 +1,4 @@
-# Wasp_acdification
+# Wasp_acidification
 version of WASP with an AMP algorithm that includes an acidification target. 
 
 For details of the entire model see: Goodwin P (2016) How historic simulation–observation discrepancy affects future warming projections in a very large model ensemble. Clim Dyn 47:2219–2233. https://doi.org/10.1007/s00382-015-2960-z
